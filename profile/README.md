@@ -3,9 +3,9 @@ Decomposition is a basic strategy for solving multiobjective optimization proble
 
 ## Random scalarization
 Applie the standard single-objective acquisition function after random scalarization.
-* **2006, TEVC. Joshua Knowles. "ParEGO: a hybrid algorithm with on-line landscape approximation for expensive multiobjective optimization problems". [[PDF](https://ieeexplore.ieee.org/abstract/document/1583627)]**
+* **2006, TEVC. Joshua Knowles. "ParEGO: a Hybrid Algorithm with on-line Landscape Approximation for Expensive Multiobjective Optimization Problems". [[PDF](https://ieeexplore.ieee.org/abstract/document/1583627)]**
 * **2020, UAI. Biswajit Paria, Kirthevasan Kandasamy, Barnabás Póczos. "A Flexible Framework for Multi-Objective Bayesian Optimization using Random Scalarizations". [[PDF](https://proceedings.mlr.press/v115/paria20a.html)]**
-* **2020, ICML. Richard Zhang, Daniel Golovin. "Random hypervolume scalarizations for provable multi-objective black box optimization". [[PDF](https://proceedings.mlr.press/v119/zhang20i.html)]**
+* **2020, ICML. Richard Zhang, Daniel Golovin. "Random Hypervolume Scalarizations for Provable Mmulti-objective Black Box Optimization". [[PDF](https://proceedings.mlr.press/v119/zhang20i.html)]**
 
 ## Decomposition & Cooperation
 Following the [MOEA/D](https://ieeexplore.ieee.org/abstract/document/4358754) framework, decompose a MOP in question into a number of sub-problems via a set of reference vectors and solve these sub-problems in a collaborative manner. It is based on the assumption that the optimal solutions of two subproblems should be similar when their reference vectors are close.
