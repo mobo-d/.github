@@ -1,5 +1,5 @@
 # Multiobjective Bayesian Optimization based on Decomposition 
-Decomposition is a basic strategy for solving multiobjective optimization problems (MOPs), as it enables the simplification of MOPs into more manageable sub-problems [[1](https://ieeexplore.ieee.org/abstract/document/4358754)].  This strategy not only makes the problem-solving process more efficient, but also provides a flexible way to balance between diversity and convergence. This page includes the representative MultiObjective Bayesian Optimization (MOBO) papers that utilize decomposition techniques.
+Decomposition is a fundamental strategy for solving multiobjective optimization problems (MOPs), as it enables the simplification of MOPs into more manageable sub-problems [[1](https://ieeexplore.ieee.org/abstract/document/4358754)]. This strategy not only makes the problem-solving process more efficient, but also provides a flexible way to manage the diversity of solutions. This page includes the representative MultiObjective Bayesian Optimization (MOBO) papers that utilize decomposition techniques.
 
 ## Random Scalarization
 Applie the standard single-objective acquisition function after random scalarization.
