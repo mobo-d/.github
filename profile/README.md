@@ -11,6 +11,7 @@ Applie the standard single-objective acquisition function after random scalariza
 ### 2.1 Decomposition & Cooperation
 Following the [MOEA/D](https://ieeexplore.ieee.org/abstract/document/4358754) framework, decompose a MOP in question into a number of sub-problems via a set of reference vectors and solve these sub-problems in a collaborative manner. It is based on the assumption that the optimal solutions of two subproblems should be similar when their reference vectors are close.
 * **2010, TEVC. MOEA/D-EGO. Qingfu Zhang, Wudong Liu, Edward Tsang, and Botond Virginas. "Expensive Multiobjective Optimization by MOEA/D with Gaussian Process Model". [[PDF](https://ieeexplore.ieee.org/abstract/document/5353656)] [[code](https://github.com/mobo-d/MOEAD-EGO)]**
+* **2017, TEVC. Namura, Nobuo, Koji Shimoyama, and Shigeru Obayashi. "Expected improvement of penalty-based boundary intersection for expensive multiobjective optimization." [[PDF](https://ieeexplore.ieee.org/abstract/document/7896579)]**
 * **2024, TEVC. DirHV-EGO. Liang Zhao and Qingfu Zhang. "Hypervolume-Guided Decomposition for Parallel Expensive Multiobjective Optimization". [[PDF](https://ieeexplore.ieee.org/document/10093980)] [[Supplementary](https://ieeexplore.ieee.org/document/10093980/media#media)] [[code](https://github.com/mobo-d/DirHV-EGO)]**
 
 ### 2.2 Pareto Set Learning
