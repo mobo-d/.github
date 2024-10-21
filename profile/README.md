@@ -4,6 +4,7 @@ Decomposition is a fundamental strategy for solving multiobjective optimization 
 ## 1. Random Scalarization
 Applie the standard single-objective acquisition function after random scalarization.
 * **2006, TEVC. Joshua Knowles. "ParEGO: a Hybrid Algorithm with on-line Landscape Approximation for Expensive Multiobjective Optimization Problems". [[PDF](https://ieeexplore.ieee.org/abstract/document/1583627)]**
+Random scalarized acquisition function.
 * **2020, UAI. Biswajit Paria, Kirthevasan Kandasamy, Barnabás Póczos. "A Flexible Framework for Multi-Objective Bayesian Optimization using Random Scalarizations". [[PDF](https://proceedings.mlr.press/v115/paria20a.html)]**
 * **2020, ICML. Richard Zhang, Daniel Golovin. "Random Hypervolume Scalarizations for Provable Mmulti-objective Black Box Optimization". [[PDF](https://proceedings.mlr.press/v119/zhang20i.html)]**
 
